@@ -1,0 +1,24 @@
+.button {
+	padding: 23px 65px;
+	cursor: pointer;
+	border: none;
+	background-color: $accent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	transition: all .5s ease;
+	box-shadow: 0 10px 0 darken($accent, 12%);
+	&:hover {
+		background-color: darken($accent, 12%);
+		box-shadow: none;
+		margin-top: 10px;
+	}
+	&_blue {
+		padding: 22px 27px;
+		background-color: $blue-accent;
+		box-shadow: 0 10px 0 darken($blue-accent, 12%);
+		&:hover {
+			background-color: darken($blue-accent, 12%);
+		}
+	}
+}

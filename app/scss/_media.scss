@@ -1,0 +1,134 @@
+@media (min-width: 990px) and (max-width: 1250px) {
+	.head {
+		padding: 10px 10px;
+	}
+	.head__content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.head__button {
+		margin-left: 10px;
+	}
+	.team__content {
+		padding-right: 30px;
+	}
+}
+@media (min-width: 576px) and (max-width: 989px) {
+	.contacts__desc {
+		width: auto;
+	}
+	.main-header {
+		text-align: center;
+	}
+	.head {
+		flex-direction: column;
+		text-align: center;
+		&__logo {
+			margin-bottom: 30px;
+		}
+		li:first-child {
+			margin-left: 0;
+		}
+	}
+	.head__content-subtitle, .head__content-title {
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.head__content-subtitle {
+		margin-bottom: 100px;
+	}
+	.progress {
+		height: 600px;
+	}
+	.progress__imgs {
+		top: -500px;
+	}
+	.team__content {
+		padding-bottom: 40px;
+		max-width: none;
+	}
+	.team__img {
+		display: none;
+	}
+	.footer__bottom-line {
+		width: 400px;
+	}
+}
+@media (min-width: 320px) and (max-width: 575px) {
+	.contacts__desc {
+		width: auto;
+	}
+	.main-header {
+		text-align: center;
+	}
+	.head {
+		flex-direction: column;
+		text-align: center;
+		&__logo {
+			margin-bottom: 30px;
+			padding: 5px;
+		}
+		ul {
+			li {
+			margin-left: 5px;
+			}
+			li:first-child {
+				margin-left: -40px;
+			}
+		}
+		
+	}
+	.head__logo {
+		margin: 0 auto;
+	}
+	.head__content-subtitle, .head__content-title {
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.head__content-subtitle {
+		margin-bottom: 100px;
+		width: 300px;
+	}
+	.progress {
+		height: 300px;
+	}
+	.progress__background {
+		height: 300px;
+	}
+	.progress__imgs {
+		top: -255px;
+	}
+	.team__content {
+		padding-bottom: 40px;
+		max-width: none;
+		text-align: center;
+		padding: 10px 0 20px;
+		&-subtitle {
+			font-size: 14px;
+		}
+		&-title {
+			font-size: 30px;
+		}
+		&-desc {
+			font-size: 14px;
+		}
+	}
+	.team__img {
+		display: none;
+	}
+	.footer__nav {
+		ul {
+			li {
+				display: block;
+				margin: 0;
+				margin-left: -40px;
+			}
+			li:first-child {
+				margin-left: -40px;
+			}
+		}
+	}
+	.footer__bottom-line {
+		width: 200px;
+	}
+}

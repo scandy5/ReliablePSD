@@ -1,0 +1,55 @@
+.main-header {
+	background-image: url(../img/jared-sluyter-342881.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 135px;
+}
+.head {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.head__nav {
+	ul {
+		li {
+			list-style: none;
+			display: inline-block;
+			margin-left: 40px;
+			padding-bottom: 43px;
+			transition: all .25s ease;
+			border-bottom: 5px solid rgba(0,0,0,0);
+			&:hover {
+				border-bottom: 5px solid #00b5d2;
+				a {
+						color: #fff;
+				}
+			}
+			a {
+				text-decoration: none;
+				text-transform: uppercase;
+				color: $text;
+				transition: all .25s ease;
+				display: inline-block;
+				height: 100%;
+			}
+		}
+	}
+}
+.head__content {
+	color: #fff;
+	&-title {
+		width: 295px;
+		font-size: 48px;
+		font-weight: 900;
+		span {
+			padding-bottom: 19px;
+			border-bottom: 4px solid #00b5d2;
+		}
+	}
+	&-subtitle {
+		font-size: 18px;
+		width: 450px;
+	}
+}
