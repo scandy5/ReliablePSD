@@ -18,4 +18,4 @@ Demo you can see, if you click [here].
 ### Result:
 ![home](https://github.com/scandy5/ReliablePSD/blob/master/app/img/ReliablePSD.png)
 
-[here]: https://scandy5.github.io/ReliablePSD/dist/
+[here]: https://scandy5.github.io/ReliablePSD/dist/index.html
